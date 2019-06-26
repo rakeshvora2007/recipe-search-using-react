@@ -1,0 +1,7 @@
+.recipeItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #f68c40;
+    justify-content: space-around;
+}

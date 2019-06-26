@@ -14,10 +14,7 @@
     cursor: pointer;
 }
 
-button {
-
-}
-
 .form {
-    text-align: center
+    text-align: center;
+    background: #ffb9d2;
 } 

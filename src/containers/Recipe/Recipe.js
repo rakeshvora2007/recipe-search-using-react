@@ -1,9 +1,10 @@
 import React from 'react';
 import {RecipeList} from './RecipeList/RecipeList';
+import styles from './Recipe.module.css'
 
 export const Recipe = ({recipeList}) => {
     return(
-        <div>
+        <div className={styles.recipeItems}>
             {console.log(recipeList)}
             {recipeList.map(recipe => {
                recipe = recipe.recipe; 

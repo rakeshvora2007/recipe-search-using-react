@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Search} from "./containers/Search/Search";
 import {Recipe} from "./containers/Recipe/Recipe";
+import styles from './App.module.css';
 
 function App() {
  const [recipeList, setRecipeList] = useState([]);
@@ -10,7 +11,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className={styles.appCover}>
       <Search handleRecipesUpdate={handleRecipesUpdate}/>
       <Recipe recipeList={recipeList}/>
     </div>
