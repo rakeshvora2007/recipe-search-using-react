@@ -1,0 +1,23 @@
+.inputText {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 12px;
+    /* width: 20%; */
+}
+
+.inputSubmit {
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+
+}
+
+.form {
+    text-align: center
+} 
