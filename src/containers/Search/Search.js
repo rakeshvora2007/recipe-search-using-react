@@ -26,6 +26,7 @@ export const Search = props => {
     if (searchTerm !== "") {
       getRecipes(searchTerm, listOfRecipes => {
         // setRecipes(listOfRecipes);
+        setSearchTerm("");
         props.handleRecipesUpdate(listOfRecipes.hits);
       });
     } else {
