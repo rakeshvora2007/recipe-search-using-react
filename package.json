@@ -2,7 +2,7 @@
   "name": "recipe-search-using-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "rakeshvora2007.github.io/recipe-search-using-react",
+  "homepage": "https://rakeshvora2007.github.io/recipe-search-using-react",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
