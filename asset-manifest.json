@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recipe-search-using-react/static/css/main.d0a91744.chunk.css",
+    "main.css": "/recipe-search-using-react/static/css/main.3874fead.chunk.css",
     "main.js": "/recipe-search-using-react/static/js/main.a6863df9.chunk.js",
     "main.js.map": "/recipe-search-using-react/static/js/main.a6863df9.chunk.js.map",
     "runtime~main.js": "/recipe-search-using-react/static/js/runtime~main.cae0aeb7.js",
@@ -8,8 +8,8 @@
     "static/js/2.bf9f4d95.chunk.js": "/recipe-search-using-react/static/js/2.bf9f4d95.chunk.js",
     "static/js/2.bf9f4d95.chunk.js.map": "/recipe-search-using-react/static/js/2.bf9f4d95.chunk.js.map",
     "index.html": "/recipe-search-using-react/index.html",
-    "precache-manifest.130837368f8d2f7690f753783abc335c.js": "/recipe-search-using-react/precache-manifest.130837368f8d2f7690f753783abc335c.js",
+    "precache-manifest.31b5a7b1b0a475ef286193055480b898.js": "/recipe-search-using-react/precache-manifest.31b5a7b1b0a475ef286193055480b898.js",
     "service-worker.js": "/recipe-search-using-react/service-worker.js",
-    "static/css/main.d0a91744.chunk.css.map": "/recipe-search-using-react/static/css/main.d0a91744.chunk.css.map"
+    "static/css/main.3874fead.chunk.css.map": "/recipe-search-using-react/static/css/main.3874fead.chunk.css.map"
   }
 }
