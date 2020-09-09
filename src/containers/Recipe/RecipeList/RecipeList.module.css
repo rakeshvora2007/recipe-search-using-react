@@ -1,6 +1,11 @@
+.recipeImageContainer {
+    width: 100%;
+}
+
 .recipeImage {
     height: 200px;
-    width: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .recipeItem {
@@ -8,14 +13,38 @@
     flex-direction: column;
     border: 1px solid black;
     border-radius: 5px;
-    align-items: center;
     background: white;
     width: 400px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.recipeItemTitle {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.ingredientsContainer {
+    height: 200px;
+    overflow: auto;
 }
 
 .recipeIngridientList {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
+    
+}
+
+.header {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.calories {
+    font-size: 10px;
 }
