@@ -1,10 +1,13 @@
-import React, {useState} from 'react';
-import {Search} from "./containers/Search/Search";
-import {Recipe} from "./containers/Recipe/Recipe";
+import React, { useState } from 'react';
+import { Search } from "./containers/Search/Search";
+import { Recipe } from "./containers/Recipe/Recipe";
 import styles from './App.module.css';
+import { Loading } from "./components/Reusables/Loading";
 
 function App() {
- const [recipeList, setRecipeList] = useState([]);
+  let [recipeList, setRecipeList] = useState([]);
+  let [loading, setLoading] = useState(false);
+
 
   const handleRecipesUpdate = (value) => {
     setRecipeList(value);
@@ -12,8 +15,19 @@ function App() {
 
   return (
     <div className={styles.appCover}>
-      <Search handleRecipesUpdate={handleRecipesUpdate}/>
-      <Recipe recipeList={recipeList}/>
+      <Search handleRecipesUpdate={handleRecipesUpdate} setLoading={setLoading} />
+
+      {
+        loading ?
+          <Loading />
+          :
+          recipeList.length ?
+            <Recipe recipeList={recipeList} />
+            :
+            <div className={styles.intialMessage}>
+              Start Finding the Recipes you like
+        </div>
+      }
     </div>
   );
 }

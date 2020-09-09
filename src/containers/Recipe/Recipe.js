@@ -5,7 +5,6 @@ import styles from './Recipe.module.css'
 export const Recipe = ({recipeList}) => {
     return(
         <div className={styles.recipeItems}>
-            {console.log(recipeList)}
             {recipeList.map(recipe => {
                recipe = recipe.recipe; 
                return <RecipeList

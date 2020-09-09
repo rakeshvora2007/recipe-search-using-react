@@ -3,7 +3,7 @@ import { APP_CONFIG } from "../../config/Keys";
 import styles from "./Search.module.css";
 
 export const Search = props => {
-  const [searchTerm, setSearchTerm] = useState("");
+  let [searchTerm, setSearchTerm] = useState("");
 
   const getRecipes = async (query, fxn) => {
     const response = await fetch(
@@ -17,10 +17,10 @@ export const Search = props => {
 
   const onSearch = e => {
     e.preventDefault();
-    console.log(searchTerm);
     if (searchTerm !== "") {
+      props.setLoading(true);
       getRecipes(searchTerm, listOfRecipes => {
-        setSearchTerm("");
+        props.setLoading(false);
         props.handleRecipesUpdate(listOfRecipes.hits);
       });
     } else {
@@ -39,7 +39,7 @@ export const Search = props => {
           <input
             type="text"
             value={searchTerm}
-            placeholder="Search"
+            placeholder="Enter Ingredient"
             className={styles.inputText}
             onChange={e => onChangeSearchTerm(e.target.value)}
           />
