@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/recipe-search-using-react/static/css/main.3874fead.chunk.css",
-    "main.js": "/recipe-search-using-react/static/js/main.a6863df9.chunk.js",
-    "main.js.map": "/recipe-search-using-react/static/js/main.a6863df9.chunk.js.map",
-    "runtime~main.js": "/recipe-search-using-react/static/js/runtime~main.cae0aeb7.js",
-    "runtime~main.js.map": "/recipe-search-using-react/static/js/runtime~main.cae0aeb7.js.map",
-    "static/js/2.bf9f4d95.chunk.js": "/recipe-search-using-react/static/js/2.bf9f4d95.chunk.js",
-    "static/js/2.bf9f4d95.chunk.js.map": "/recipe-search-using-react/static/js/2.bf9f4d95.chunk.js.map",
+    "main.css": "/recipe-search-using-react/static/css/main.bfd6cb66.chunk.css",
+    "main.js": "/recipe-search-using-react/static/js/main.f9d5f1cf.chunk.js",
+    "main.js.map": "/recipe-search-using-react/static/js/main.f9d5f1cf.chunk.js.map",
+    "runtime-main.js": "/recipe-search-using-react/static/js/runtime-main.27b6f38b.js",
+    "runtime-main.js.map": "/recipe-search-using-react/static/js/runtime-main.27b6f38b.js.map",
+    "static/js/2.ccd95d4d.chunk.js": "/recipe-search-using-react/static/js/2.ccd95d4d.chunk.js",
+    "static/js/2.ccd95d4d.chunk.js.map": "/recipe-search-using-react/static/js/2.ccd95d4d.chunk.js.map",
     "index.html": "/recipe-search-using-react/index.html",
-    "precache-manifest.31b5a7b1b0a475ef286193055480b898.js": "/recipe-search-using-react/precache-manifest.31b5a7b1b0a475ef286193055480b898.js",
+    "precache-manifest.9a9e4491fc5a8934e80bcf57374558db.js": "/recipe-search-using-react/precache-manifest.9a9e4491fc5a8934e80bcf57374558db.js",
     "service-worker.js": "/recipe-search-using-react/service-worker.js",
-    "static/css/main.3874fead.chunk.css.map": "/recipe-search-using-react/static/css/main.3874fead.chunk.css.map"
-  }
+    "static/css/main.bfd6cb66.chunk.css.map": "/recipe-search-using-react/static/css/main.bfd6cb66.chunk.css.map",
+    "static/js/2.ccd95d4d.chunk.js.LICENSE.txt": "/recipe-search-using-react/static/js/2.ccd95d4d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/recipe-search-using-react/static/media/food-cover.fdca41da.jpg",
+    "static/media/Search.module.css": "/recipe-search-using-react/static/media/search.73d0609a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27b6f38b.js",
+    "static/js/2.ccd95d4d.chunk.js",
+    "static/css/main.bfd6cb66.chunk.css",
+    "static/js/main.f9d5f1cf.chunk.js"
+  ]
 }
