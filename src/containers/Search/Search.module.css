@@ -2,19 +2,33 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 12px;
-    /* width: 20%; */
-}
-
-.inputSubmit {
-    height: 35px;
-    width: 80px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
 }
 
 .form {
     text-align: center;
-    background: #6A381F;
-} 
+
+}
+
+.searchContainer {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.searchButton {
+    background: none;
+    padding: 0px;
+    border: none;
+}
+
+.searchIcon {
+    background-image: url('./search.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+}
