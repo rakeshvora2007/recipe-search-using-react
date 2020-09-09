@@ -7,6 +7,7 @@ import { Loading } from "./components/Reusables/Loading";
 function App() {
   let [recipeList, setRecipeList] = useState([]);
   let [loading, setLoading] = useState(false);
+  let [error, setError] = useState("");
 
 
   const handleRecipesUpdate = (value) => {
@@ -15,9 +16,12 @@ function App() {
 
   return (
     <div className={styles.appCover}>
-      <Search handleRecipesUpdate={handleRecipesUpdate} setLoading={setLoading} />
+      <Search handleRecipesUpdate={handleRecipesUpdate} setLoading={setLoading} setError={setError}/>
 
       {
+        error ?
+        <div className={styles.error}>{error}</div>
+        :
         loading ?
           <Loading />
           :

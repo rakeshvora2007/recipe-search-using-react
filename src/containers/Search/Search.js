@@ -6,18 +6,23 @@ export const Search = props => {
   let [searchTerm, setSearchTerm] = useState("");
 
   const getRecipes = async (query, fxn) => {
-    const response = await fetch(
-      `https://api.edamam.com/search?q=${query}&app_id=${
-      APP_CONFIG.APP_ID
-      }&app_key=${APP_CONFIG.APP_KEY}`
-    );
-    const data = await response.json();
-    fxn(data);
+    try {
+      const response = await fetch(
+        `https://api.edamam.com/search?q=${query}&app_id=${
+        APP_CONFIG.APP_ID
+        }&app_key=${APP_CONFIG.APP_KEY}`
+      );
+      const data = await response.json();
+      fxn(data);
+    } catch (error) {
+      props.setError("Maximum number of request allowed in a minute hit!!. Please wait few seconds and try again");
+    }
   };
 
   const onSearch = e => {
     e.preventDefault();
     if (searchTerm !== "") {
+      props.setError("");
       props.setLoading(true);
       getRecipes(searchTerm, listOfRecipes => {
         props.setLoading(false);

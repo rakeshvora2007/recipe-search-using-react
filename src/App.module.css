@@ -8,3 +8,13 @@
     text-align: center;
     margin-top: 50px;
 }
+
+.error {
+    font-size: 28px;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background: rgb(60 60 58 / 30%);
+    border-radius: 5px;
+}
