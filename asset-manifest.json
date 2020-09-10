@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recipe-search-using-react/static/css/main.609e959a.chunk.css",
+    "main.css": "/recipe-search-using-react/static/css/main.80ddb63c.chunk.css",
     "main.js": "/recipe-search-using-react/static/js/main.46b8c4cd.chunk.js",
     "main.js.map": "/recipe-search-using-react/static/js/main.46b8c4cd.chunk.js.map",
     "runtime-main.js": "/recipe-search-using-react/static/js/runtime-main.27b6f38b.js",
@@ -8,9 +8,9 @@
     "static/js/2.a3535ed6.chunk.js": "/recipe-search-using-react/static/js/2.a3535ed6.chunk.js",
     "static/js/2.a3535ed6.chunk.js.map": "/recipe-search-using-react/static/js/2.a3535ed6.chunk.js.map",
     "index.html": "/recipe-search-using-react/index.html",
-    "precache-manifest.122c1232807e53875a8fff35db3b6f5d.js": "/recipe-search-using-react/precache-manifest.122c1232807e53875a8fff35db3b6f5d.js",
+    "precache-manifest.6998dd0483c1da7dc59b9fa178d1dd27.js": "/recipe-search-using-react/precache-manifest.6998dd0483c1da7dc59b9fa178d1dd27.js",
     "service-worker.js": "/recipe-search-using-react/service-worker.js",
-    "static/css/main.609e959a.chunk.css.map": "/recipe-search-using-react/static/css/main.609e959a.chunk.css.map",
+    "static/css/main.80ddb63c.chunk.css.map": "/recipe-search-using-react/static/css/main.80ddb63c.chunk.css.map",
     "static/js/2.a3535ed6.chunk.js.LICENSE.txt": "/recipe-search-using-react/static/js/2.a3535ed6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/recipe-search-using-react/static/media/food-cover.fdca41da.jpg",
     "static/media/Search.module.css": "/recipe-search-using-react/static/media/search.73d0609a.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.27b6f38b.js",
     "static/js/2.a3535ed6.chunk.js",
-    "static/css/main.609e959a.chunk.css",
+    "static/css/main.80ddb63c.chunk.css",
     "static/js/main.46b8c4cd.chunk.js"
   ]
 }
