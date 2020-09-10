@@ -20,6 +20,6 @@ code {
   body {
     background-image: url('./food-cover.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
   }
 }
